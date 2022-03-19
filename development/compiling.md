@@ -3,7 +3,7 @@
 **Compiling scripts can give a slight performance boost, although you should be fine without it.**
 
 {% hint style="success" %}
-[**Download from MEGA**](https://mega.nz/#!JpFAhYjb!35AbAx8sGdmVAI3o-EVHtGA_-Y1WqReo7WWUWHOdYo4)
+[**Direct unmetered download (https://gamesense.wiki/LuaJIT.7z)**](https://gamesense.wiki/LuaJIT.7z)
 {% endhint %}
 
 1. Download the archive and extract it anywhere
