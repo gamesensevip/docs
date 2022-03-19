@@ -85,8 +85,11 @@ Codes | Description
 ----- | -----------
   D0001409 | [Out of memory](#out-of-memory)
   C000009A |
+  C000005B | Out of quota. Make sure to have at least 8.4 GB of free space on the system drive.
+  D0000001 |
   D0001600 | [Antivirus](#antivirus)
   D0002001 |
+  A000001L |
   C0000022 |
   C00000F1 |
   C0000043 |
@@ -99,3 +102,11 @@ Codes | Description
   C0000225 |
   D0001442 | Game crashed while loading
   D0001012 | ["Virtual machine not supported"](#virtual-machine-not-supported)
+  D0002370 | Incompatible vendor. Fix: Completely uninstall Malwarebytes and restart your computer.
+  C0000490 | Unable to locate system path. Try running the client under C:\ drive and ensure you have enough disk space.
+  C0000872 | Process integrity check failed. In this case, contact an administrator.
+  D0000020 | Process integrity check failed. In this case, contact an administrator.
+  C0000004 | No game found. Please install the desired game you're going to load the cheat for. In extreme cases this can be a false positive, just open a support ticket.
+  C0000005 | No game found. Please install the desired game you're going to load the cheat for. In extreme cases this can be a false positive, just open a support ticket.
+  C0000006 | No game found. Please install the desired game you're going to load the cheat for. In extreme cases this can be a false positive, just open a support ticket.
+  D0000660 | Contact an administrator.
