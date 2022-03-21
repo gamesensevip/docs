@@ -15,7 +15,7 @@ Some antivirus vendors perform very intensive real-time monitoring/sandboxing th
 
 ### Unsupported version of Windows
 
-Windows 8.1 or newer is required. Some older versions of Windows 10 may not work. Update to the latest version of Windows 10. If you are on Windows 10.0.14393 or newer and you receive this error, restart your computer and try again.
+Windows 10.10.0.14393  or newer is required. Some older versions of Windows 10 may not work. Update to the latest version of Windows 10. If you are on Windows 10.0.14393 or newer and you receive this error, restart your computer and try again.
 
 ### Anti-cheat
 
@@ -100,6 +100,7 @@ Codes | Description
   D0002201 | Connection problem
   D0001434 | Game is taking too long to load, use -novid or wait until the main menu to inject
   C0000225 |
+  C0000005 | No game found. Make sure you have Counter-Strike: Global Offensive installed and up to-date. Error codes produced: C0000004, C0000005, C0000006
   D0001442 | Game crashed while loading
   D0001012 | ["Virtual machine not supported"](#virtual-machine-not-supported)
   D0002370 | Incompatible vendor. Fix: Completely uninstall Malwarebytes and restart your computer.
