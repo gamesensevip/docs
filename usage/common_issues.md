@@ -11,7 +11,7 @@ Try closing programs that are using a lot of memory, or just restart your comput
 
 Some antivirus vendors perform very intensive real-time monitoring/sandboxing that can interfere with the client. You don't need to disable Windows Defender. Whitelisting may not work. Make sure the antivirus is closed and its drivers are unloaded. You can re-open them after loading the cheat.
 
-**Known incompatible vendors:** Trend Micro, F-Secure, MalwareBytes
+**Known incompatible vendors:** Avast Anti-Virus, Trend Micro, F-Secure, MalwareBytes
 
 ### Unsupported version of Windows
 
@@ -25,7 +25,7 @@ Some anti-cheat drivers (particularly BattlEye) protect game/Steam processes whi
 
 Any program that interferes with the game rendering can cause issues.
 
-**Known incompatible software:**  Fraps, SweetFX, discord overlay, NZXT CAM
+**Known incompatible software:**  [Fraps](https://fraps.com/), [SweetFX](https://github.com/CeeJayDK/SweetFX), [discord](https://discord.com/) overlay, [NZXT CAM](https://nzxt.com/en-US/software/cam)
 
 **Error codes produced:** none, your game will crash
 
@@ -75,9 +75,13 @@ Be sure you do not have conflicting settings for CS:GO in the Program Settings t
 Can happen if you played a Battleye or EAC protected game, Restart PC or disable the BE/EAC service.
 
 ### Client closing right after you open it
-
 Install the game that your subscription is for.
-Make sure invitees understand that Windows 8.1 or newer is required.
+Make sure invitees understand that Windows 10 or newer is required.
+
+## No game found (previously "Game not found")
+
+Happens if the loader is unable to locate game path your subscription is for.
+This is something we are going to improve significantly soon. As of now, the easiest way to fix this is installing the game on same disk as your [Steam](https://store.steampowered.com) client lies under.
 
 ## Common error codes
 
@@ -90,7 +94,7 @@ Codes | Description
   D0001600 | [Antivirus](#antivirus)
   D0002001 |
   A000001L |
-  C0000022 |
+  C0000022 | Incompatible vendor (Read: [Antivirus](#antivirus)). Note: Whitelisting from MalwareBytes might not work. Make sure the antivirus is closed and its drivers are unloaded. You can re-open them after loading the cheat.
   C00000F1 |
   C0000043 |
   C0000077 | [Unsupported version of Windows](#unsupported-version-of-windows)
@@ -104,10 +108,10 @@ Codes | Description
   D0001442 | Game crashed while loading
   D0001012 | ["Virtual machine not supported"](#virtual-machine-not-supported)
   D0002370 | Incompatible vendor. Fix: Completely uninstall Malwarebytes and restart your computer.
-  C0000490 | Unable to locate system path. Try running the client under C:\ drive and ensure you have enough disk space.
+  C0000490 | Unable to locate system path.
   C0000872 | Process integrity check failed. In this case, contact an administrator.
   D0000020 | Process integrity check failed. In this case, contact an administrator.
-  C0000004 | No game found. Please install the desired game you're going to load the cheat for. In extreme cases this can be a false positive, just open a support ticket.
-  C0000005 | No game found. Please install the desired game you're going to load the cheat for. In extreme cases this can be a false positive, just open a support ticket.
-  C0000006 | No game found. Please install the desired game you're going to load the cheat for. In extreme cases this can be a false positive, just open a support ticket.
+  C0000004 | No game found. [No game found (previously "Game not found")](#no-game-found-previously-game-not-found)
+  C0000005 | No game found. [No game found (previously "Game not found")](#no-game-found-previously-game-not-found)
+  C0000006 | No game found. [No game found (previously "Game not found")](#no-game-found-previously-game-not-found)
   D0000660 | Contact an administrator.
