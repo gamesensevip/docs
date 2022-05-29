@@ -2,10 +2,8 @@
 
 This script, if enabled, draws small dots on the heads of enemies. The dots are white if the head is invisible and red if visible
 
-![](https://i.imgur.com/agQcdXA.png)
+![](https://i.ibb.co/R3Hc2D2/t-BON9-Wp-Vi0.png)
 
-{% code-tabs %}
-{% code-tabs-item title="head_dot.lua" %}
 ```lua
 -- localize often used API variables to improve performance. It's usually fine to not do this, but lua then has to look them up as globals every time.
 local client_eye_position, client_trace_line, entity_get_local_player, entity_get_players, entity_hitbox_position, renderer_circle, renderer_world_to_screen = client.eye_position, client.trace_line, entity.get_local_player, entity.get_players, entity.hitbox_position, renderer.circle, renderer.world_to_screen
@@ -45,5 +43,3 @@ local function on_paint()
 end
 client.set_event_callback("paint", on_paint)
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
