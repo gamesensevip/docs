@@ -7,7 +7,7 @@
 
 These snippets have descriptions (VSCode & Atom only) for most API functions as well as arguments and are currently up-to-date with the current API.
 
-Thread: https://gamesense.vip/forums/viewtopic.php?id=716
+Thread: [https://gamesense.vip/forums/viewtopic.php?id=716](https://gamesense.vip/forums/viewtopic.php?id=716)
 
 # Suggested extensions
 
